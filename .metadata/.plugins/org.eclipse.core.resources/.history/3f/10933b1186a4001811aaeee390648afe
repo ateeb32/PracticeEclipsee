@@ -1,0 +1,28 @@
+
+public class HelloWorld {
+	
+	public static void main(String[] args)
+	{
+		//System.out.println("Hello World!");
+		Parameters(0, 0, 0, 0);
+
+	}
+	
+	public static void Parameters (int number1, int number2, int sum, int multiply)
+	{
+		number1=2;
+		number2=3;
+		sum=number1+number2;
+		multiply=number1*number2;
+		
+		boolean sumMultiply = true;
+		
+		if (sumMultiply) {
+			System.out.println("The sum of the two numbers are :" + sum);
+		}
+		
+		System.out.print(number1);
+		System.out.print("+");
+		System.out.println(number2);
+	}
+}
