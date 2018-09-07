@@ -13,6 +13,12 @@ public class Arrays {
 			System.out.println((tenNumbers[i]*10)); // Now show the array values x10
 		
 		}
+		
+//		for (int i : tenNumbers) {
+//			
+//			System.out.println(i); // easier way of executing the array list display above ^
+//			
+//		}
 
 	}
 

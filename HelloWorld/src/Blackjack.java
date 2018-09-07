@@ -8,11 +8,15 @@ public class Blackjack {
 	
 	public static int blackjack (int number1, int number2)
 	{
-		if (number1 < number2) {
+		if (number1 < number2 && number2 <= 21) {
 			return number2;
 		}
 		
-		if (number1 > number2) {
+		if (number1 > number2 && number1 <= 21) {
+			return number1;
+		}
+		
+		if (number1 == number2 && number1 < 21) {
 			return number1;
 		}
 		
